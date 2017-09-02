@@ -1,0 +1,77 @@
+body {
+  padding-bottom: 40px; }
+
+.header .navbar-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  margin-top: 20px;
+  margin-bottom: -90px; }
+
+#myCarousel {
+  width: 100%;
+  margin-bottom: 60px; }
+  #myCarousel .carousel-inner {
+    position: relative;
+    width: 100%; }
+  #myCarousel .item {
+    height: 500px; }
+  #myCarousel .item img {
+    position: absolute;
+    height: 500px;
+    width: auto;
+    left: 0;
+    top: 0; }
+  #myCarousel .container {
+    position: relative;
+    z-index: 9; }
+  #myCarousel .carousel-caption {
+    background-color: transparent;
+    position: static;
+    max-width: 550px;
+    padding: 0 60px;
+    margin-top: 200px;
+    text-align: left; }
+    #myCarousel .carousel-caption h1, #myCarousel .carousel-caption .lead {
+      margin: 0;
+      line-height: 1.25;
+      color: #fff;
+      text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4); }
+    #myCarousel .carousel-caption h1 {
+      font-size: 38.5px; }
+  #myCarousel .glyphicon {
+    font-size: 50px; }
+  #myCarousel .glyphicon-chevron-right {
+    margin-right: -60px; }
+  #myCarousel .glyphicon-chevron-left {
+    margin-left: -60px; }
+  #myCarousel .btn {
+    margin-top: 10px; }
+
+.main .marking .thumbnail {
+  text-align: center;
+  border: 0px; }
+
+.main .featurette-divider {
+  margin: 80px 0; }
+
+.main .featurette {
+  padding-top: 120px;
+  overflow: hidden; }
+
+.main .featurette-image {
+  margin-top: -120px; }
+
+.main .featurette-heading {
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px; }
+
+.main .muted {
+  color: #999999; }
+
+footer .pull-right {
+  float: right; }
